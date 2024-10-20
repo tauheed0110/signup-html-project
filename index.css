@@ -1,13 +1,48 @@
-#section1{
-    border: 1px solid black;
-    padding: 10px;
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black
+}
+#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-a{
-    text-decoration: none;
+h1{
+    font-size: 40px;
+    font-weight: 600;
 }
 
-#section2>img{
-    width: 300px;
-    height: 200px;
+input{
+    width: 100%;
+    margin-top: 15px;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    font-size: 20px;
 }
+
+::placeholder{
+    color: white;
+}
+
+.input-field>input{
+    width: fit-content;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
